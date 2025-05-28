@@ -1,13 +1,7 @@
-# Lenguajes de Marcas y Sistemas de Gestión de Información (LLMM)
-
-Repositorio de ejercicios y recursos para el módulo de Lenguajes de Marcas del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
-
+# Lenguajes de Marcas y Sistemas de Gestión de Información
 ## Tema 3 - JavaScript y Manipulación del DOM
 
 Este tema se centra en el aprendizaje de JavaScript como lenguaje de programación para la web y la manipulación del Document Object Model (DOM) para crear páginas web dinámicas e interactivas.
-
-### Entorno Web de Desarrollo
-[WebEntorno](/Tema3/WebEntorno/index.html) - Entorno de desarrollo para practicar JavaScript y manipulación del DOM.
 
 ### Ejercicios Básicos de JavaScript
 
@@ -30,8 +24,6 @@ En esta sección encontrarás ejercicios que te ayudarán a comprender los funda
 
 ### Ejercicios de Manipulación del DOM
 
-Esta sección contiene ejercicios específicos para aprender a manipular el Document Object Model (DOM), permitiéndote modificar dinámicamente el contenido, estructura y estilo de las páginas web.
-
 | Ejercicio | Descripción | Conceptos Trabajados |
 |-----------|-------------|----------------------|
 | [Ejercicio 1](/Tema3/Ejercicio1D.html) | Añadir elementos | Creación e inserción de nodos |
@@ -41,30 +33,12 @@ Esta sección contiene ejercicios específicos para aprender a manipular el Docu
 
 ### Ejercicios Avanzados de JavaScript
 
-En esta sección encontrarás ejercicios más complejos que combinan varios conceptos de JavaScript y manipulación del DOM para crear aplicaciones web más sofisticadas.
-
 | Ejercicio | Descripción | Conceptos Trabajados |
 |-----------|-------------|----------------------|
 | [Ejercicio 1](/Tema3/Ejercicio1A.html) | Editor HTML y CSS | Creación de un editor de código en tiempo real |
 | [Ejercicio 2](/Tema3/Ejercicio2A.html) | Cambiamos el estilo | Manipulación avanzada de CSS |
 | [Ejercicio 3](/Tema3/Ejercicio3A.html) | Cambiamos el estilo de sheet | Modificación de hojas de estilo |
 | [Ejercicio 4](/Tema3/Ejercicio4A.html) | HTML Y DOM | Integración avanzada de HTML y manipulación del DOM |
-
-## Recursos Adicionales
-
-### Documentación Oficial
-- [MDN Web Docs - JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-- [MDN Web Docs - DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model)
-
-### Herramientas Recomendadas
-- [Visual Studio Code](https://code.visualstudio.com/) - Editor de código recomendado
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Herramientas de desarrollo para depurar JavaScript
-
-## Instrucciones para los Ejercicios
-
-1. Clona este repositorio o descarga los archivos individuales
-2. Abre los archivos HTML en tu navegador para ver el resultado
-3. Utiliza un editor de código para examinar y modificar el código fuente
 4. Experimenta con los ejemplos para comprender mejor los conceptos
 
 ## Evaluación
