@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<phonebook>
+  <company>
+    <cname>tfosorciM</cname>
+    <exchange>000999-90</exchange>
+    <president>lliB Gates</president>
+    <extension>1100999-90</extension>
+    <secretary>enirahtaK Finch</secretary>
+    <extension>2100999-90</extension>
+  </company>
+  <company>
+    <cname>elcarO</cname>
+    <exchange>000888-90</exchange>
+    <president>yrraL Ellison</president>
+    <extension>1100888-90</extension>
+    <secretary>neleH Calhoun</secretary>
+    <extension>2100888-90</extension>
+  </company>
+</phonebook>

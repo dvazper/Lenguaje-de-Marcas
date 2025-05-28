@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel simple</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #e6f7fa;
+        }
+
+        .cajaSlide {
+            display: none;
+        }
+
+        .cajaSlide img {
+            width: 100%;
+            border-radius: 8px;
+            border: 4px solid #0077b6;
+        }
+
+        .contenedorCarrusel {
+            position: relative;
+            width: 75vw;
+            margin: 12vh auto 0;
+        }
+
+        .btn {
+            cursor: pointer;
+            position: absolute;
+            top: 45%;
+            padding: 14px;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            user-select: none;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+            color: #0077b6;
+            border: 2px solid #0077b6;
+        }
+
+        .prev {
+            left: -25px;
+        }
+
+        .next {
+            right: -25px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedorCarrusel">
+    <div class="cajaSlide">
+        <img src="img4.jpeg" alt="Imagen 4">
+    </div>
+    <div class="cajaSlide">
+        <img src="img2.jpg" alt="Imagen 2">
+    </div>
+    <div class="cajaSlide">
+        <img src="img1.jpg" alt="Imagen 1">
+    </div>
+    <div class="cajaSlide">
+        <img src="img3.jpg" alt="Imagen 3">
+    </div>
+
+    <span class="btn prev" onclick="cambiarSlide(-1)">◄</span>
+    <span class="btn next" onclick="cambiarSlide(1)">►</span>
+</div>
+
+<script>
+    let indiceActual = 1;
+    mostrarSlide(indiceActual);
+
+    function cambiarSlide(paso) {
+        mostrarSlide(indiceActual += paso);
+    }
+
+    function mostrarSlide(n) {
+        const slides = document.getElementsByClassName("cajaSlide");
+        if (n > slides.length) indiceActual = 1;
+        if (n < 1) indiceActual = slides.length;
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[indiceActual - 1].style.display = "block";
+    }
+</script>
+
+</body>
+</html>

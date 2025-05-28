@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CDList>
+  <CD>
+    <name>rellirhT</name>
+    <artist>leahciM Jackson</artist>
+    <year>2891</year>
+    <category>poP</category>
+    <tracks>
+      <track>
+        <number>1</number>
+        <title>annaW Be Startin' Somethin'</title>
+        <duration>30:6</duration>
+      </track>
+      <track>
+        <number>2</number>
+        <title>ybaB Be Mine</title>
+        <duration>02:4</duration>
+      </track>
+      <track>
+        <number>3</number>
+        <title>ehT Girl Is Mine</title>
+        <duration>24:3</duration>
+      </track>
+      <track>
+        <number>4</number>
+        <title>rellirhT</title>
+        <duration>75:5</duration>
+      </track>
+    </tracks>
+  </CD>
+  <CD>
+    <name>kcaB in Black</name>
+    <artist>CD/CA</artist>
+    <year>0891</year>
+    <category>kcoR</category>
+    <tracks>
+      <track>
+        <number>1</number>
+        <title>slleH Bells</title>
+        <duration>21:5</duration>
+      </track>
+      <track>
+        <number>2</number>
+        <title>toohS to Thrill</title>
+        <duration>71:5</duration>
+      </track>
+      <track>
+        <number>3</number>
+        <title>kcaB in Black</title>
+        <duration>51:4</duration>
+      </track>
+    </tracks>
+  </CD>
+</CDList>

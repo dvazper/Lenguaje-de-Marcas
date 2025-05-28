@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información de mascotas</title>
+  <script>
+    function mostrarMascotas() {
+      fetch("datos/json_demo.txt")
+        .then(res => res.json())
+        .then(data => {
+          let texto = `<h3>Dueño: ${data.owner}</h3><ul>`;
+          data.pets.forEach(pet => {
+            texto += `<li>${pet.type}: ${pet.name}</li>`;
+          });
+          texto += "</ul>";
+          document.getElementById("resultado").innerHTML = texto;
+        });
+    }
+  </script>
+</head>
+<body>
+  <h2>Mis mascotas</h2>
+  <button onclick="mostrarMascotas()">Ver información</button>
+  <div id="resultado"></div>
+</body>
+</html>

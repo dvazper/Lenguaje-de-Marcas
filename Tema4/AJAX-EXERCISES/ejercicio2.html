@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El tiempo en tu zona</title>
+  <script>
+    function mostrarDatos(municipio) {
+      const xhr = new XMLHttpRequest();
+      xhr.onload = function () {
+        const datos = this.responseXML;
+        const nombre = datos.getElementsByTagName("nombre")[0].textContent;
+        const provincia = datos.getElementsByTagName("provincia")[0].textContent;
+        const estado = datos.getElementsByTagName("estadoCielo")[0].textContent;
+        const temp = datos.getElementsByTagName("temperatura")[0].getElementsByTagName("maxima")[0].textContent;
+
+        const resultado = `
+          <h3>Tiempo en ${nombre} (${provincia})</h3>
+          <p>Estado del cielo: ${estado}</p>
+          <p>Temperatura máxima: ${temp}ºC</p>`;
+        document.getElementById("datosTiempo").innerHTML = resultado;
+      };
+      xhr.open("GET", municipio);
+      xhr.send();
+    }
+  </script>
+</head>
+<body>
+  <h2>Consulta del tiempo</h2>
+  <button onclick="mostrarDatos('datos/localidad_21041.xml')">Ver datos</button>
+  <div id="datosTiempo"></div>
+</body>
+</html>

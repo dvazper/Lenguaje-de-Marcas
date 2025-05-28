@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catálogo de música</title>
+  <script>
+    function cargarCatalogo() {
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+        const datos = this.responseXML;
+        const cds = datos.getElementsByTagName("CD");
+        let resultado = "<ul>";
+        for (let cd of cds) {
+          const titulo = cd.getElementsByTagName("TITLE")[0].textContent;
+          const artista = cd.getElementsByTagName("ARTIST")[0].textContent;
+          resultado += `<li><strong>${titulo}</strong> - ${artista}</li>`;
+        }
+        resultado += "</ul>";
+        document.getElementById("catalogo").innerHTML = resultado;
+      };
+      xhttp.open("GET", "datos/cd_catalog.xml");
+      xhttp.send();
+    }
+  </script>
+</head>
+<body>
+  <h2>Lista de CDs disponibles</h2>
+  <button onclick="cargarCatalogo()">Mostrar catálogo</button>
+  <div id="catalogo"></div>
+</body>
+</html>

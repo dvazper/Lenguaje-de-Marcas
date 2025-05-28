@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagen del día (NASA)</title>
+  <script>
+    async function obtenerImagenNASA() {
+      const res = await fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
+      const data = await res.json();
+      const contenido = `
+        <h3>${data.title}</h3>
+        <img src="${data.url}" alt="Imagen NASA" width="500">
+        <p>${data.explanation}</p>`;
+      document.getElementById("nasa").innerHTML = contenido;
+    }
+  </script>
+</head>
+<body>
+  <h2>Foto astronómica del día</h2>
+  <button onclick="obtenerImagenNASA()">Cargar imagen</button>
+  <div id="nasa"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<email>
+  <header>
+    <from>
+      <name>nomiS North</name>
+      <email_address>moc.sysponys@htron</email_address>
+    </from>
+    <to>
+      <name>kciN</name>
+      <email_address>ln.lla4sx@catnis</email_address>
+    </to>
+    <subject>iH</subject>
+  </header>
+  <body>
+    <paragraph>iH Nick, this is just a quick message to say I got the material. Thanks.</paragraph>
+  </body>
+</email>

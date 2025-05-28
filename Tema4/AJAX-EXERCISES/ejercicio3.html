@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Listado desde JSON</title>
+  <script>
+    function cargarLista() {
+      fetch("datos/json_demo_array.txt")
+        .then(res => res.json())
+        .then(datos => {
+          let html = "<ol>";
+          datos.forEach(obj => {
+            html += `<li>${obj.name} (${obj.age} años)</li>`;
+          });
+          html += "</ol>";
+          document.getElementById("salida").innerHTML = html;
+        });
+    }
+  </script>
+</head>
+<body>
+  <h2>Personas registradas</h2>
+  <button onclick="cargarLista()">Mostrar lista</button>
+  <div id="salida"></div>
+</body>
+</html>

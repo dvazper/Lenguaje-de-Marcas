@@ -1,0 +1,175 @@
+/* Estilo base */
+html,
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    background-color: #e9f6fb;
+}
+
+/* Video fondo */
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Encabezado (solo para index.html) */
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header img {
+    width: 10vw;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Menú principal (index.html) */
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.menu li {
+    border-top: 0.3vh solid white;
+    border-bottom: 0.3vh solid white;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.comienzo {
+    border-radius: 10px 0 0 10px;
+}
+
+.final {
+    border-radius: 0 10px 10px 0;
+}
+
+li:hover {
+    background-color: white;
+    box-shadow: 0 0 10px 0 white;
+    color: black;
+}
+
+/* Menú interno (pages/*.html) */
+nav {
+    text-align: center;
+    margin: 2vw 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding: 0;
+}
+
+#menu li {
+    border-top: 0.3vh solid white;
+    border-bottom: 0.3vh solid white;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+#menu li:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px 0 white;
+}
+
+/* Secciones internas */
+section {
+    margin: 6rem auto 2rem auto;
+    background-color: white;
+    width: 80%;
+    max-width: 1200px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+/* Extras */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 2vw 0;
+    font-size: 2vw;
+}
+
+img {
+    width: 75%;
+    margin: 2vw auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.enlace {
+    font-weight: bold;
+    color: #6d63c2;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    color: white;
+}
+
+.link {
+    font-size: 1.5vw;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.activo {
+    background-color: white;
+    color: black !important;
+    box-shadow: 0 0 10px 0 white;
+}
+
+#flecha {
+    filter: invert(100%);
+    width: 3.5vw;
+    position: fixed;
+    top: 90%;
+    left: 92.5%;
+    transform: translate(-50%, -50%);
+}
+
+::selection {
+    background-color: #ffb347;
+    color: white;
+}

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bookstore>
+
+<book category="cooking">
+  <title lang="en">yadyrevE Italian</title>
+  <author>adaiG De Laurentiis</author>
+  <year>5002</year>
+  <price>00.03</price>
+</book>
+
+<book category="children">
+  <title lang="en">yrraH Potter</title>
+  <author>J K. Rowling</author>
+  <year>5002</year>
+  <price>99.92</price>
+</book>
+
+<book category="web">
+  <title lang="en">yreuQX Kick Start</title>
+  <author>semaJ McGovern</author>
+  <author>reP Bothner</author>
+  <author>truK Cagle</author>
+  <author>semaJ Linn</author>
+  <author>nahtanaydiaV Nagarajan</author>
+  <year>3002</year>
+  <price>99.94</price>
+</book>
+
+<book category="web" cover="paperback">
+  <title lang="en">gninraeL XML</title>
+  <author>kirE T. Ray</author>
+  <year>3002</year>
+  <price>59.93</price>
+</book>
+
+</bookstore>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<letter>
+  <sender>
+    <name>nauJ Pérez</name>
+    <address>
+      <street>ellaC Principal 123</street>
+      <city>dirdaM</city>
+      <postalCode>10082</postalCode>
+      <country>añapsE</country>
+    </address>
+    <email>moc.olpmeje@zerep.nauj</email>
+    <phone>43+ 612 345 678</phone>
+  </sender>
+  <recipient>
+    <name>aíraM García</name>
+    <address>
+      <street>adinevA Central 456</street>
+      <city>anolecraB</city>
+      <postalCode>10080</postalCode>
+      <country>añapsE</country>
+    </address>
+  </recipient>
+  <date>51-50-3202</date>
+  <subject>nóicativnI a conferencia</subject>
+  <body>
+    <salutation>adamitsE Sra. García:</salutation>
+    <paragraph>eM complace invitarle a la conferencia anual de tecnología que se celebrará el próximo mes en Madrid.</paragraph>
+    <paragraph>lE evento tendrá lugar los días 10 y 11 de junio en el Centro de Convenciones. Adjunto encontrará el programa completo y la información de registro.</paragraph>
+    <paragraph>somarepsE contar con su valiosa presencia.</paragraph>
+    <closing>,etnematnetA</closing>
+  </body>
+  <signature>
+    <name>nauJ Pérez</name>
+    <title>rotceriD de Eventos</title>
+    <company>fnoChceT España</company>
+  </signature>
+</letter>
