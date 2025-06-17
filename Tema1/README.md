@@ -2,15 +2,15 @@
 
 Este repositorio contiene ejercicios prácticos, ejemplos y proyectos desarrollados para el módulo de Lenguajes de Marcas y Sistemas de Gestión de Información del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
 
-## 📋 Contenido del Repositorio
+## Contenido del Repositorio
 
 El repositorio está organizado por temas, siguiendo la estructura curricular del módulo. Cada tema contiene ejercicios prácticos que abordan diferentes aspectos de las tecnologías web.
 
-## 🌐 Tema 1 - HTML, CSS y JavaScript Básico
+## Tema 1 - HTML, CSS y JavaScript Básico
 
 Esta sección contiene ejercicios que cubren los fundamentos del desarrollo web front-end, desde la estructura básica HTML hasta la manipulación del DOM con JavaScript.
 
-### 📝 Ejercicios de HTML y CSS
+### Ejercicios de HTML y CSS
 
 Estos ejercicios están diseñados para comprender progresivamente los elementos fundamentales del desarrollo web, desde estructuras básicas hasta componentes más complejos.
 
@@ -49,7 +49,7 @@ Estos ejercicios están diseñados para comprender progresivamente los elementos
 | 32 | [Ejercicio 32](/Tema1/act29/Ejercicio27.html) | Inserción de vídeo de YouTube | Contenido embebido |
 | 33 | [Portfolio Web](https://rafaelcorderodev.lovestoblog.com/?i=1) | Sitio web portfolio en hosting gratuito | Proyecto personal |
 
-### 🔄 Ejercicios de DOM con JavaScript
+### Ejercicios de DOM con JavaScript
 
 Esta sección se centra en la manipulación del Document Object Model (DOM) mediante JavaScript, permitiendo la interacción dinámica con los elementos HTML.
 
@@ -60,7 +60,7 @@ Esta sección se centra en la manipulación del Document Object Model (DOM) medi
 | 3 | [Ejercicio 3](/Tema1/DOM/Ejercicio3.html) | Cambio de estilos de párrafo con JavaScript | Manipulación de CSS con JS |
 | 4 | [Ejercicio 4](/Tema1/DOM/Ejercicio4/Ejercicio1.html) | Modificación de imagen con JavaScript | Manipulación de atributos |
 
-## 🚀 Proyecto Final - Primera Evaluación
+## Proyecto Final - Primera Evaluación
 
 ### Creación de un Sitio Web Completo
 
@@ -69,7 +69,7 @@ Este proyecto integra todos los conocimientos adquiridos durante la primera eval
 | Recurso | Descripción |
 |---------|-------------|
 | [Enunciado de la Actividad](http://docs.google.com/document/d/18Ru8RTDNnfByqD1XmgBmsbB0heMsepe_rTok2kAbi34/edit?usp=sharing_blank) | Documento con los requisitos y especificaciones del proyecto |
-| <a href="http://rca.free.nf" target="_blank">Sitio Web en Hosting</a> | Implementación en vivo del proyecto (sin certificado SSL) |
+| <a href="" target="_blank">Sitio Web en Hosting</a> | Implementación en vivo del proyecto (sin certificado SSL) |
 | [Código Fuente](/Tema1/Web) | Archivos y código fuente del proyecto |
 
 ## 🛠️ Tecnologías Utilizadas
@@ -91,4 +91,4 @@ Este repositorio se actualiza regularmente con nuevos ejercicios y proyectos a m
 
 ---
 
-© 2025- Desarrollo de Aplicaciones Web (DAW)
+© 2025 - Desarrollo de Aplicaciones Web (DAW) - Daniel Vázquez Pereira
