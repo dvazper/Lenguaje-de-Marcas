@@ -6,7 +6,7 @@ Este proyecto incluye varios ejercicios y ejemplos que he ido haciendo para apre
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| Ex1a - Ex1c | Pruebas básicas con estructuras XML simples |
+| Ex1a - Tema4/XML-Exercises/Ex1a.xml | Pruebas básicas con estructuras XML simples |
 | Ex2         | Ejemplo con noticias en XML y validación por DTD |
 | Ex3         | Estructura de empleados (original con errores y corregido) |
 | Ex4         | Ejemplo de correo electrónico formateado en XML |
