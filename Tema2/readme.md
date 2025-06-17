@@ -1,51 +1,67 @@
 
 # Lenguajes de Marcas y Sistemas de Gestión de Información (LLMM)
 
-Repositorio de ejercicios y prácticas para el módulo de Lenguajes de Marcas del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
+Este repositorio recopila distintos ejercicios y prácticas del módulo de Lenguajes de Marcas, parte del ciclo de Desarrollo de Aplicaciones Web (DAW). Aquí trabajamos conceptos esenciales para darle forma y estilo a páginas web.
 
-## Tema 2 - Hojas de Estilo en Cascada (CSS)
+---
 
-En este tema exploramos los fundamentos y técnicas avanzadas de CSS (Cascading Style Sheets), el lenguaje utilizado para definir la presentación visual de documentos HTML. A través de diversos ejercicios prácticos, aprenderemos a controlar el diseño, la disposición y la apariencia de elementos web.
+## 🧩 Tema 2 - CSS: Hojas de Estilo en Cascada
 
-### Objetivos de Aprendizaje
-- Comprender la sintaxis y estructura de CSS
-- Aplicar selectores y propiedades para modificar elementos HTML
-- Implementar diseños responsivos para diferentes dispositivos
-- Utilizar técnicas modernas como Flexbox y Bootstrap
+En este tema nos metemos de lleno en el uso de CSS, el lenguaje que nos permite controlar cómo se ven nuestras páginas HTML. A lo largo de los ejercicios vamos tocando desde lo más básico hasta cosas más modernas como Flexbox y Bootstrap.
 
-### Ejercicios Prácticos
+---
 
-| Nº | Ejercicio | Descripción | Conceptos Clave |
-|---|------------|-------------|-----------------|
-| 1 | [Propiedades CSS](/Tema2/Ejercicio1.html) | Introducción a las propiedades básicas de CSS | Selectores, colores, tipografía |
-| 2 | [Página Web Sencilla](/Tema2/Ejercicio2) | Creación de una página web con encabezado y párrafo | Estructura básica, estilos simples |
-| 3 | [Curriculum Vitae](/Tema2/Ejercicio3.html) | Maquetación de un CV utilizando CSS | Organización de contenido, estilos de texto |
-| 4 | [Lista Horizontal](/Tema2/Ejercicio4.html) | Transformación de listas en menús horizontales | Display, margin, padding |
-| 5 | [Creación de Tablas](/Tema2/Ejercicio5.html) | Diseño y estilizado de tablas | Border, cellspacing, cellpadding |
-| 6 | [Tablas con Propiedades](/Tema2/Ejercicio6.html) | Aplicación de propiedades avanzadas a tablas | Colspan, rowspan, estilos de celdas |
-| 7 | Posicionamiento con Float | Uso de la propiedad float para posicionar elementos | Float: left, clear |
-| 8 | Posicionamiento Absoluto | Posicionamiento preciso de elementos con z-index | Position: absolute, z-index |
-| 9 | Capas y Superposición | Trabajo con capas y control de superposición | Position, z-index, layers |
-| 10 | [Flexbox](/Tema2/Ejercicio10.html) | Diseño flexible mediante Flexbox | Display: flex, flex-direction, justify-content |
-| 11 | [Galería de Imágenes](/Tema2/Ejercicio11) | Creación de una galería de imágenes responsive | Grid, media queries |
-| 12 | [Diseño Responsivo](/Tema2/Ejercicio12.html) | Adaptación de contenido a diferentes dispositivos | Media queries, viewport |
-| 13 | [Práctica Bootstrap](/Tema2/Boostrap/index.html) | Implementación de un sitio web con Bootstrap | Componentes, grid system, clases utilitarias |
+### 🎯 ¿Qué aprendemos?
 
-### Proyecto Final
-[Web de Bootstrap](http://cuidatusalud.lovestoblog.com) - Sitio web completo desarrollado utilizando el framework Bootstrap.
+- Cómo funciona la sintaxis de CSS y para qué sirve cada parte.
+- Aplicar estilos a elementos concretos mediante selectores.
+- Crear páginas adaptables a distintos tamaños de pantalla (responsive).
+- Usar herramientas actuales como Flexbox o Bootstrap para maquetar mejor.
 
-### Recursos Adicionales
-- [Documentación oficial de CSS (MDN)](https://developer.mozilla.org/es/docs/Web/CSS)
-- [Guía de Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Bootstrap Documentation](https://getbootstrap.com/docs/)
+---
 
-### Evaluación
-La evaluación de este tema se realizará mediante:
-- Entrega de los ejercicios prácticos
-- Participación en clase
-- Proyecto final implementando las técnicas aprendidas
+### 🛠️ Ejercicios incluidos
+
+| Nº | Ejercicio | ¿Qué se hace? | Lo que se trabaja |
+|----|-----------|---------------|--------------------|
+| 1  | [Propiedades CSS](/Tema2/Ejercicio1.html) | Se ven las propiedades más comunes de CSS | Colores, fuentes, selectores |
+| 2  | [Página Web Sencilla](/Tema2/Ejercicio2) | Se construye una web simple con encabezado y texto | Estructura + estilo básico |
+| 3  | [Curriculum Vitae](/Tema2/Ejercicio3.html) | Creamos un CV usando HTML y lo maquetamos con CSS | Organización de contenido, tipografía |
+| 4  | [Lista Horizontal](/Tema2/Ejercicio4.html) | Convertimos una lista normal en un menú horizontal | Display, margenes y relleno |
+| 5  | [Creación de Tablas](/Tema2/Ejercicio5.html) | Hacemos una tabla con estilo personalizado | Bordes, espaciado entre celdas |
+| 6  | [Tablas con Propiedades](/Tema2/Ejercicio6.html) | Añadimos propiedades avanzadas a las tablas | rowspan, colspan, estilos variados |
+| 7  | Posicionamiento con Float | Vemos cómo alinear elementos con float | float: left, clear |
+| 8  | Posicionamiento Absoluto | Posicionar elementos con precisión | position: absolute, z-index |
+| 9  | Capas y Superposición | Cómo se manejan capas y su orden | position, z-index |
+| 10 | [Flexbox](/Tema2/Ejercicio10.html) | Aprendemos a usar Flexbox para organizar elementos | display: flex, justify-content |
+| 11 | [Galería de Imágenes](/Tema2/Ejercicio11) | Creamos una galería adaptativa de imágenes | grid, media queries |
+| 12 | [Diseño Responsivo](/Tema2/Ejercicio12.html) | Adaptamos una web a móviles, tablets, etc. | media queries, viewport |
+| 13 | [Práctica Bootstrap](/Tema2/Boostrap/index.html) | Montamos una web usando Bootstrap | Componentes, rejillas, clases rápidas |
+
+---
+
+### 🌍 Proyecto final
+
+[Web de Bootstrap](http://cuidatusalud.lovestoblog.com)  
+Una página completa desarrollada usando Bootstrap. Combina todo lo aprendido en el tema.
+
+---
+
+### 📚 Recursos que vienen bien
+
+- [CSS en MDN Web Docs](https://developer.mozilla.org/es/docs/Web/CSS)
+- [Guía rápida de Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Docs oficiales de Bootstrap](https://getbootstrap.com/docs/)
+
+---
+
+### 📝 ¿Cómo se evalúa este tema?
+
+- Entregando todos los ejercicios prácticos hechos.
+- Participando en clase.
+- Presentando un proyecto final aplicando lo aprendido.
 
 ---
 
 © 2025 Módulo LLMM - Desarrollo de Aplicaciones Web
- 
+
