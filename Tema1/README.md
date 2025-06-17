@@ -68,7 +68,7 @@ Este proyecto integra todos los conocimientos adquiridos durante la primera eval
 | Recurso | Descripción |
 |---------|-------------|
 | [Enunciado de la Actividad](http://docs.google.com/document/d/18Ru8RTDNnfByqD1XmgBmsbB0heMsepe_rTok2kAbi34/edit?usp=sharing_blank) | Documento con los requisitos y especificaciones del proyecto |
-| <a href="" target="_blank">Sitio Web en Hosting</a> | Implementación en vivo del proyecto (sin certificado SSL) |
+| <a href="puertasabiertaslmdaw.fwh.is" target="_blank">Sitio Web en Hosting</a> | 
 | [Código Fuente](/Tema1/Web) | Archivos y código fuente del proyecto |
 
 ## 🛠️ Tecnologías Utilizadas
