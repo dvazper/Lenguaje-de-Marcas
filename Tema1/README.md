@@ -47,7 +47,6 @@ Estos ejercicios están diseñados para comprender progresivamente los elementos
 | 30 | [Ejercicio 30](/Tema1/act27) | Implementación de vídeo | HTML5 Multimedia |
 | 31 | [Ejercicio 31](/Tema1/act28) | Implementación de audio | Audio en HTML5 |
 | 32 | [Ejercicio 32](/Tema1/act29/Ejercicio27.html) | Inserción de vídeo de YouTube | Contenido embebido |
-| 33 | [Portfolio Web](https://rafaelcorderodev.lovestoblog.com/?i=1) | Sitio web portfolio en hosting gratuito | Proyecto personal |
 
 ### Ejercicios de DOM con JavaScript
 
