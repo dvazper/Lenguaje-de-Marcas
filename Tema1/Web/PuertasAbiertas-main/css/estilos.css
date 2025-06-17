@@ -1,0 +1,262 @@
+/* RESET Y ESTRUCTURA */
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* MENU NORMAL */
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+nav ul.menu li {
+  margin: 10px 15px;
+}
+
+nav ul.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* MENÚ HAMBURGUESA */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  z-index: 20;
+}
+
+/* HERO */
+.hero {
+  background-image: url('../img/banner-daw.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+  animation: fadeUp 1s ease-in-out;
+}
+
+/* SECTIONS */
+section {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+section p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+i.fas {
+  color: #2a5298;
+  margin-right: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  flex-shrink: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* ANIMACIONES */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeMenu {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* RANKING VISUAL ÉPICO */
+.ranking.epic {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: popIn 1s ease;
+}
+
+.ranking.epic thead {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  font-size: 1.1rem;
+}
+
+.ranking.epic th, .ranking.epic td {
+  padding: 15px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.ranking.epic tbody tr {
+  background-color: #ffffff;
+  font-weight: 500;
+}
+
+.ranking.epic tbody tr:hover {
+  background-color: #e6f0ff;
+  transform: scale(1.02);
+}
+
+.ranking.epic .gold {
+  background-color: #fff8dc;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.ranking.epic .silver {
+  background-color: #f0f0f0;
+  color: #a9a9a9;
+  font-weight: bold;
+}
+
+.ranking.epic .bronze {
+  background-color: #fbe7d0;
+  color: #cd7f32;
+  font-weight: bold;
+}
+
+/* RANKING CENTRADO */
+.ranking-container {
+  text-align: center;
+}
+.ranking-container table {
+  margin: 0 auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav ul.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #1e3c72;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 15;
+    padding: 10px 0;
+    animation: fadeMenu 0.3s ease-in-out;
+  }
+
+  nav ul.menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+}

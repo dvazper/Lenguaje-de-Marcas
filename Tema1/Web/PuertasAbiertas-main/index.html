@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio - DAW</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Partículas -->
+  <div id="particles-js"></div>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Desarrollo de Aplicaciones Web</h1>
+    <nav>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="curso.html">El Curso</a></li>
+        <li><a href="asignaturas.html">Asignaturas</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="memorion.html">Memorión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Bienvenido al ciclo de DAW</h2>
+        <p>Tu primer paso hacia el desarrollo web profesional</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>¿Qué es DAW?</h2>
+      <p>¿Te interesa crear páginas web, apps online o trabajar en tecnología? El ciclo de <strong>Desarrollo de Aplicaciones Web (DAW)</strong> puede ser lo tuyo.</p>
+      <p><i class="fas fa-laptop-code"></i> Aprenderás a programar, diseñar interfaces, trabajar con bases de datos y lanzar tus propias apps.</p>
+      <p><i class="fas fa-building"></i> El módulo se imparte en el <strong>I.E.S. La Marisma</strong>, con una formación muy práctica y conectada al mundo real.</p>
+      <p><i class="fas fa-globe"></i> Además, se ofrece en <strong>modalidad bilingüe</strong> y se realizan <strong>prácticas en empresas</strong> en ambos cursos.</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 - DAW Informática - I.E.S. La Marisma</p>
+  </footer>
+
+  <!-- JS para partículas y menú -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    // Partículas
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 60 },
+        size: { value: 3 },
+        move: { speed: 1 },
+        line_linked: { enable: true }
+      }
+    });
+
+    // Menú hamburguesa
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
